@@ -1,0 +1,17 @@
+header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+header > p {
+	font-size: 1.25em;
+	font-weight: bold;
+	user-select: none;
+}
+
+#logo {
+	width: 4em;
+	max-width: 20vw;
+	padding: 1em;
+}

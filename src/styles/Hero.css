@@ -1,0 +1,59 @@
+#hero {
+	text-align: center;
+	padding: 0 5vw;
+}
+
+#hero>#hero-title {
+	margin-top: 1em;
+	font-size: 2em;
+	font-weight: 300;
+	user-select: none;
+}
+
+#hero>#hero-title>span {
+	font-weight: 500;
+}
+
+#hero>#hero-title>#caret {
+	animation: 1.5s linear infinite blink_anim;
+}
+
+#hero>#hero-subtitle {
+	font-size: 1.25em;
+	opacity: .75;
+	margin-top: .5em;
+	margin-bottom: 1.5em;
+	user-select: none;
+}
+
+#cheatsheet {
+	border: .1em solid #6A36FE;
+	padding: .5em .8em;
+	margin-left: .5em;
+	background-color: white;
+	color: #6A36FE;
+}
+
+@-webkit-keyframes blink_anim {
+	0% {
+		visibility: hidden;
+	}
+	50% {
+		visibility: hidden;
+	}
+	100% {
+		visibility: visible;
+	}
+}
+
+@keyframes blink_anim {
+	0% {
+		visibility: hidden;
+	}
+	50% {
+		visibility: hidden;
+	}
+	100% {
+		visibility: visible;
+	}
+}

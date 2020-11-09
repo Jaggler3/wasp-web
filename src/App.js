@@ -13,15 +13,10 @@ function App() {
 		window.location.assign("#editor")
 	}, [])
 
-
-	const openTutorial = useCallback(() => {
-		window.location.assign("/tutorial")
-	}, [])
-
 	return (
 		<>
 			<Header />
-			<Hero openEditor={openEditor} openTutorial={openTutorial} />
+			<Hero openEditor={openEditor} />
 			<Features />
 			<Editor />
 		</>

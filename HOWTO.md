@@ -1,3 +1,7 @@
+<p align="center">
+	<img alt="wasp logo" src="https://github.com/Jaggler3/wasp-web/blob/main/src/images/icon.png?raw=true">
+</p>
+
 # Wasp
 Wasp is a programming language made for code-golfing via an interpreter written in JavaScript.
 

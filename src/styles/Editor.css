@@ -91,4 +91,7 @@
 	#input {
 		flex-direction: column-reverse;
 	}
+	#output {
+		width: calc(100% - 2em);
+	}
 }

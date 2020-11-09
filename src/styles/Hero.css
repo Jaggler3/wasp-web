@@ -33,6 +33,15 @@
 	background-color: white;
 	color: #6A36FE;
 }
+@media screen and (max-width: 500px) {
+	#hero-buttons {
+		display: flex;
+		flex-direction: column;
+	}
+	#cheatsheet {
+		margin: 1em 0;
+	}
+}
 
 @-webkit-keyframes blink_anim {
 	0% {
